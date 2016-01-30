@@ -12,28 +12,12 @@ import os
 import datetime
 import base64
 import shutil
+from my_config import EX_DOMAIN
  
 mydnsip = '127.0.0.1'
 mydnsport = '5300'
 ipsetname = 'gfwlist'
-# Extra Domain;
-EX_DOMAIN=[ \
-'.google.com', \
-'.google.com.hk', \
-'.google.com.tw', \
-'.google.com.sg', \
-'.google.co.jp', \
-'.blogspot.com', \
-'.blogspot.sg', \
-'.blogspot.hk', \
-'.blogspot.jp', \
-'.gvt1.com', \
-'.gvt2.com', \
-'.gvt3.com', \
-'.1e100.net', \
-'.blogspot.tw' \
-]
- 
+
 # the url of gfwlist
 baseurl = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
 # match comments/title/whitelist/ip address
